@@ -30,7 +30,8 @@ const reverseArray = (arr) => {
 const arrInc = (arr) => {
   const result = [];
   for(var i=0;i<arr.length;i++){
-    result.push(arr[i]+10)
+    result.push(arr[i]+10
+      )
 
   }
   return result;
